@@ -12,6 +12,7 @@ public class ConsoleApl implements ConsApl, Reader, Writer {
         int b = read.readNum();
         String op = read.readStr();
         System.out.println(calculate.calc(a, b, op));
+        System.out.println();
     }
 
     @Override
